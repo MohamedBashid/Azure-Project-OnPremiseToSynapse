@@ -33,7 +33,7 @@ The project involves extracting data from an on-premise MySQL server, transformi
    
 * Power BI: Azure Synapse is connected to Power BI for real-time visualization. Power BI is used to create interactive reports and dashboards based on the views exposed through the Synapse Analytics serverless SQL pool.
 
-**Technology Stack:**
+## Technology Stack:
 
 **Azure Data Factory:** Used for data extraction, pipeline orchestration, and movement of data from MySQL to Azure Data Lake. \
 **Azure Databricks:** For data transformation using Apache Spark and Delta Lake format. \
@@ -42,7 +42,7 @@ The project involves extracting data from an on-premise MySQL server, transformi
 **Azure Key Vault:** To store the confidential information. \
 **Power BI:** Data visualization tool used to connect with Synapse and present data in interactive reports and dashboards.
 
-**Conclusion:**
+## Conclusion:
 
 This project showcases an end-to-end data engineering solution on Azure, where data is seamlessly extracted from an on-premise MySQL database, transformed using Azure Databricks, and stored in Azure Data Lake Gen2 in a structured manner. The data is then queried via Azure Synapse Analytics and visualized in Power BI for actionable insights. The solution leverages Azure's scalable and serverless services, ensuring an efficient, automated pipeline that supports data-driven decision-making.
 
