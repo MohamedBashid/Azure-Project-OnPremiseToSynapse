@@ -1,0 +1,4 @@
+Project Overview:
+This project demonstrates the design and implementation of an end-to-end data engineering pipeline to move data from an on-premise MySQL database to Azure Synapse Analytics for data transformation, storage, and visualization. The pipeline leverages several Azure services including Azure Data Factory, Azure Databricks, Azure Data Lake Gen2, and Power BI, providing a robust solution for scalable data integration and visualization.
+
+The project involves extracting data from an on-premise MySQL server, transforming it through multiple layers (bronze, silver, and gold), and storing the final output in Azure Data Lake Gen2 in Delta Lake format. The data is then exposed to Azure Synapse Analytics for querying and analysis, with integration to Power BI for visualization and reporting.
